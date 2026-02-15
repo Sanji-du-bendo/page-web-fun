@@ -1,0 +1,833 @@
+html {
+  scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.c1{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-auto-rows: minmax(30vh,auto);
+
+}
+div.c1{
+    color: white;
+    font-family:  Haettenschweiler, 'Arial Bold', sans-serif;
+    
+}
+
+
+header{
+    
+    background-color: rgb(56, 3, 3);
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+
+.acceuil {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    align-items: center;
+     flex-wrap: wrap;
+    gap: 20px;
+}
+
+.name span {
+    color:rgb(162, 240, 7) ;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu ul li a {
+
+    text-decoration: none;
+     color: white;
+     padding: 5px 10px;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.menu ul li a:hover{
+
+    color:rgb(162, 240, 7) ;
+     transform: scale(1.1);
+}
+
+
+.infos {
+    margin-top: 20px;
+    padding: 0 20px;
+}
+.infos h1 {
+
+    color:rgb(162, 240, 7) ;
+}
+
+/*fin du header*/
+
+/*--------------------------------------------*/
+
+/*debut a propos */
+
+.a_propos {
+
+    background-color: rgb(52, 51, 51);
+     display: flex;
+     justify-content: space-between;
+    padding: 30px 20px;
+    gap: 30px;
+     flex-wrap: wrap;
+}
+
+.a_propos_1 img {
+    max-width: 100%;
+    height: auto;
+     border-radius: 10px;
+}
+
+.a_propos_2 {
+    flex: 1;
+    min-width: 300px;
+}
+
+.a_propos_2 div {
+
+     margin-top: 30px;
+     max-width: 500px;
+}
+
+.ap_2_1 h1 {
+
+    margin-top: 5%;
+}
+
+.ap_2_1 span {
+
+    margin-top: 5%;
+}
+
+.decouvrir{
+
+    color: rgb(162, 240, 7) ;
+
+}
+.a_propos_2 span {
+
+    color: rgb(162, 240, 7) ;
+}
+
+.ap_2_2 {
+
+    font-weight: bold;
+     line-height: 1.6;
+}
+
+.ap_2_3{
+     
+    padding: 15px;
+    border: 3px solid rgb(162, 240, 7)  ;
+    border-radius: 10px;
+    font-size: 15px;
+    overflow-x: auto;
+}
+
+
+
+.a_propos_3 {
+
+    display: flex;
+     flex-direction: column;
+    align-items: center;
+
+}
+
+.a_propos_3 p {
+
+    font-size: 70px;
+     color: rgb(69, 68, 68);
+     font-weight: bold;
+    
+}
+
+.a_propos_3 span {
+
+    color: rgb(162, 240, 7) ;
+     margin-top: 5px;
+
+}
+
+/* fin a_propos*/
+
+/*-------------------------------------------------------*/
+
+/*  debut competences */
+
+.competences {
+    background-color: rgb(56, 3, 3);
+    display: flex;
+    justify-content: space-between;
+  padding: 30px 20px;
+   gap: 30px;
+    flex-wrap: wrap;
+}
+
+.competences_1 {
+      margin-left: 50px;
+    margin-bottom: 25px;
+     flex: 1;
+    min-width: 300px;
+}
+
+.competences_1 span {
+
+    color: rgb(162, 240, 7) ;
+      font-weight: bold;
+}
+
+.competences_1 div {
+
+     margin-top: 5%;
+}
+
+.comp_1_2 {
+
+    background-color: black;
+      border-radius: 20px;
+       padding: 10px;
+  
+}
+
+
+.comp_1_2 div {
+        text-align: center;
+    padding: 15px;
+   
+}
+
+.comp_1_2 div h3 {
+
+      background-color: rgb(162, 240, 7) ;
+       width: fit-content;
+        min-width: 100px;
+       padding: 10px 15px;
+        border-radius: 20px;
+       text-align: center;
+}
+
+.comp_1_2 div h4 {
+
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.comp_1_2 div p {
+     margin-left: 15px;   
+      margin-top: 5px;
+}
+
+/*fin competences __1*/
+
+.competences_2 {
+    flex: 1;
+    min-width: 300px;
+}
+
+.competences_2 img {
+
+    width: 50px;
+     height: 50px;
+}
+
+.competences_2 h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.item {
+
+    display: flex;
+     align-items: center;
+      gap: 15px;
+    margin-bottom: 20px;
+
+}
+
+.max {
+
+     width: 200px;
+    background-color:  rgb(69, 68, 68);
+     height: 10px;
+     border-radius: 10px;
+      flex-shrink: 0;
+}
+
+.valeur{
+    width: 95%;
+    height: 10px;
+    background-color: rgb(162, 240, 7) ;
+    border-radius: 10px;
+     transition: width 0.5s ease;
+}
+
+
+
+.item_1 {
+
+    display: flex;
+      align-items: center;
+       gap: 15px;
+    margin-bottom: 20px;
+}
+
+.max_1 {
+
+      width: 200px;
+    background-color:  rgb(69, 68, 68);
+     height: 10px;
+     border-radius: 10px;
+      flex-shrink: 0;
+
+}
+
+.valeur_1 {
+
+     width: 60%;
+    height: 10px;
+    background-color: rgb(162, 240, 7) ;
+    border-radius: 10px;
+     transition: width 0.5s ease;
+
+}
+
+
+.item_2 {
+
+    display: flex;
+      align-items: center;
+       gap: 15px;
+    margin-bottom: 20px;
+}
+
+.max_2 {
+
+      width: 200px;
+    background-color:  rgb(69, 68, 68);
+     height: 10px;
+     border-radius: 10px;
+      flex-shrink: 0;
+
+}
+
+.valeur_2 {
+
+     width: 70%;
+    height: 10px;
+    background-color: rgb(162, 240, 7) ;
+    border-radius: 10px;
+     transition: width 0.5s ease;
+
+}
+
+.centre_interets {
+    margin-top: 30px;
+}
+
+.centre_interets ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+     flex-wrap: wrap;
+    
+}
+
+.centre_interets ul li  {
+
+    text-decoration: none;
+     padding: 5px 10px;
+}
+
+
+/*fin competences_2*/
+
+.competences_3 {
+
+    display: flex;
+      flex-direction: column;
+    align-items: center;
+     margin-top: 0;
+}
+
+.competences_3 p {
+
+    font-size: 70px;
+     color: rgb(69, 68, 68);
+     font-weight: bold;
+}
+
+.competences_3 span {
+
+    color: rgb(162, 240, 7) ;
+    font-weight: bold;
+     margin-top: 5px;
+
+}
+
+/*fin de competences*/
+/*------------------------------------------------------------------*/
+
+/*debut de services*/
+
+.services{
+     background-color:  rgb(52, 51, 51);
+      padding: 30px 20px;
+    }
+
+.services_1 {
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+     align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.serv_1 {
+      margin-left: 50px;
+    margin-bottom: 25px;
+}
+
+.serv_1 span {
+
+    color:  rgb(162, 240, 7) ;
+     font-weight: bold;
+}
+
+.serv_2 {
+
+    display: flex;
+      flex-direction: column;
+    align-items: center;
+}
+
+.serv_2 p {
+
+    font-size: 70px;
+     color:  rgb(69, 68, 68);
+     font-weight: bold;
+}
+
+.serv_2 span {
+
+    color: rgb(162, 240, 7) ;
+    font-weight: bold;
+     margin-top: 5px;
+
+}
+
+.services_2 {
+    
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;  
+    width: 60%;
+     max-width: 900px;
+    margin: 30px auto;
+    border-radius: 20px;  
+    padding: 30px;  
+     gap: 30px;
+    flex-wrap: wrap;
+  
+}
+
+.serv_2_1,
+.serv_2_2 {
+    flex: 1;
+    min-width: 200px;
+}
+
+.serv_2_1 ul,
+.serv_2_2 ul {
+    margin-top: 15px;
+    padding-left: 20px;
+    line-height: 1.8;
+}
+
+/*fin services */
+
+/*-------------------------------------------------------------------*/
+
+/*debut contact*/
+
+footer {
+     
+    background-color: rgb(56, 3, 3);
+    margin-bottom: -10px;
+     padding: 30px 20px;
+}
+
+.reseaux img {
+
+    width: 60px;
+    height: 60px;
+     transition: all 0.3s ease;
+}
+
+.contact_1 { 
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+     align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.cont_1 {
+      margin-left: 50px;
+      margin-bottom: 15px;
+}
+
+
+.contact_1 span {
+
+    color:  rgb(162, 240, 7) ;
+     font-weight: bold;
+}
+
+.cont_2 p {
+
+    font-size: 70px;
+     color:  rgb(69, 68, 68);
+     font-weight: bold;
+}
+
+.cont_2 {
+    display: flex;
+     flex-direction: column;
+    align-items: center;
+}
+
+.mots {
+    text-align: center;
+     margin: 30px 0;
+}
+
+.mots h1 {
+
+    color: rgb(162, 240, 7);
+    margin-bottom: 10px;
+}
+
+
+
+.contact_2{
+     display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: 0 auto;
+    margin-top: 30px;  
+    margin-bottom: 10px;  
+    border-radius: 20px;  
+    padding: 20px; 
+     gap: 40px;
+    flex-wrap: wrap;
+}
+
+.reseaux {
+    flex: 1;
+    min-width: 250px;
+}
+
+.reseaux ul {
+    padding: 0;
+}
+
+form{
+
+      background:  black;
+            padding: 30px;
+            border-radius: 20px;
+            border: 2px solid rgb(59, 59, 59);
+             width: 100%;
+}
+
+form h3 {
+            font-size: 24px;
+            margin-bottom: 30px;
+            color: rgb(162, 240, 7);
+             text-align: center;
+}
+
+.element_formulaire {
+
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.element_formulaire input,
+.element_formulaire textarea {
+
+            width: 100%;
+            background: rgb(59, 59, 59);
+            border: 2px solid transparent;
+            padding: 12px 15px;
+            border-radius: 10px;
+            color: white;
+            font-size: 16px;
+            transition: all 0.3s ease;
+             font-family: Arial, sans-serif;
+            
+}
+
+.element_formulaire input:focus,
+.element_formulaire textarea:focus {
+    border-color: rgb(162, 240, 7);
+    outline: none;
+}
+
+.boutton {
+     width: 100%;
+            background: rgb(162, 240, 7);
+            color: rgb(56, 3, 3);
+            margin-top: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 12px;
+            border-radius: 20px;
+             border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+
+.boutton:hover {
+            box-shadow: 0 0 30px rgb(162, 240, 7);
+             transform: translateY(-2px);
+  }
+
+
+.reseaux ul li {
+
+    list-style: none;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+     gap: 15px;
+}
+
+.reseaux ul li a {
+       margin-right: 10px;
+}
+
+.reseaux ul li a img {
+
+    transition: all 0.3s;
+}
+
+.reseaux ul li a img:hover {
+
+    width: 80px;
+    height: 80px;
+     filter: brightness(1.2);
+
+}
+.reseaux h2 {
+
+    color: rgb(162, 240, 7); 
+     margin-bottom: 20px;
+}
+
+.formulaire {
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+}
+
+
+/* tablettes  */
+@media screen and (max-width: 1024px) {
+    .a_propos,
+    .competences,
+    .services_2,
+    .contact_2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .competences_1,
+    .serv_1,
+    .cont_1 {
+        margin-left: 20px;
+    }
+
+    .services_2 {
+        width: 80%;
+    }
+
+    .a_propos_1 img {
+        max-width: 400px;
+    }
+}
+
+/* telephones  */
+@media screen and (max-width: 768px) {
+
+    .acceuil {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+    }
+
+    .infos h1 {
+        font-size: 28px;
+    }
+
+    .infos h4 {
+        font-size: 16px;
+    }
+
+ 
+    .a_propos {
+        text-align: center;
+    }
+
+    .a_propos_1 img {
+        max-width: 300px;
+    }
+
+    .a_propos_2 div {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .ap_2_3 {
+        font-size: 13px;
+        padding: 10px;
+    }
+
+    .a_propos_3 {
+        display: none;
+    }
+
+  
+    .competences_1,
+    .serv_1,
+    .cont_1 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .comp_1_2 div h3 {
+        width: auto;
+        min-width: 80px;
+        font-size: 12px;
+        padding: 8px 12px;
+    }
+
+    .max,
+    .max_1,
+    .max_2 {
+        width: 150px;
+    }
+
+    .centre_interets ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .competences_3 {
+        display: none;
+    }
+
+   
+    .services_2 {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .serv_2 {
+        display: none;
+    }
+
+   
+    .cont_2 {
+        display: none;
+    }
+
+    .contact_2 {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .reseaux,
+    .formulaire {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    form {
+        padding: 20px;
+    }
+}
+
+/*  petits ecrans */
+@media screen and (max-width: 480px) {
+    .infos h1 {
+        font-size: 22px;
+    }
+
+    .a_propos_1 img {
+        max-width: 250px;
+    }
+
+    .ap_2_3 {
+        font-size: 11px;
+    }
+
+    .comp_1_2 div h3 {
+        font-size: 11px;
+        padding: 6px 10px;
+    }
+
+    .max,
+    .max_1,
+    .max_2 {
+        width: 120px;
+    }
+
+    .reseaux img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .reseaux ul li a img:hover {
+        width: 60px;
+        height: 60px;
+    }
+
+    form h3 {
+        font-size: 20px;
+    }
+
+    .element_formulaire input,
+    .element_formulaire textarea {
+        font-size: 14px;
+    }
+}
